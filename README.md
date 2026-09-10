@@ -1,5 +1,7 @@
 # pangu-one-day-life-reset
 
+[中文](README.md) · [English](README_EN.md)
+
 从《How to fix your entire life in 1 day》蒸馏出的可运行 Skill。
 
 它不承诺一天修好人生，而是用一天完成四件事：
