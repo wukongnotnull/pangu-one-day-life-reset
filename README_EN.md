@@ -2,64 +2,66 @@
 
 [中文](README.md) · [English](README_EN.md)
 
-A runnable skill distilled from *How to fix your entire life in 1 day*.
+A one-day self-reset method based on the essay *How to fix your entire life in 1 day*.
 
-It does not promise to fix an entire life in one day. It uses one day to do four things:
+It does not promise to fix your life in a day. The day is only for four things:
 
-1. Use behavioral evidence to identify the current trajectory and possible protective goals
-2. Write a concrete anti-vision and a revisable vision MVP
-3. Interrupt autopilot throughout the day
-4. Write constraints first, then compress them into one-year evidence, a monthly project, next-day actions, and a feedback time
+1. Look at what you have actually been doing lately, not what you say you want.
+2. Write down the life you most do not want, then the direction you are willing to take now.
+3. During the day, notice the moments you start looping in place again.
+4. Set the lines you will not cross first. Then shrink the rest into what this year should produce, one thing this month can finish, two or three steps you can take tomorrow, and when you will look back.
 
-## Trigger examples
+## When to use it
 
-- "Walk me through the one-day life reset protocol."
-- "I keep saying I want to publish, but I only research tools. What does my behavior say I actually want?"
-- "Help me write an anti-vision and a vision MVP, but don't invent the answers for me."
-- "Organize my yearly goal, monthly project, and tomorrow's actions into a life game."
-- "I see it clearly in the morning and fall back at night. Help me interrupt autopilot."
+You can say things like:
 
-## Install
+- "Walk me through that one-day life reset."
+- "I keep saying I will publish, but I only research tools. What am I actually avoiding?"
+- "Help me write the future I do not want, and a direction I can live with right now. Don't make the answers up for me."
+- "Help me line up my yearly goal, what this month should get done, and what I will do tomorrow."
+- "I see it clearly in the morning and fall back at night. Help me catch the moments I slip back without noticing."
 
-### Option 1: Install with `npx skills`
+## How to install
+
+If you are fine with a command:
 
 ```bash
 npx skills add wukongnotnull/pangu-one-day-life-reset
 ```
 
-### Option 2: Ask an agent to install it
+If not, send this to an AI:
 
 ```text
 Help me install this skill: https://github.com/wukongnotnull/pangu-one-day-life-reset
 ```
 
-## How to use
+## How to use it
 
-After activation, start at the safety gate, then move through morning, daytime, evening, and next-day launch. Complete it question by question. Do not let the agent write the entire reflection in one pass.
+First check whether you are in a place to do a heavy review. Then go in order: morning, daytime, evening, next day. Answer one question at a time. Don't let the AI write the whole reflection for you in one go.
 
-The session should end with:
+When you are done, you should have something like this:
 
 ```text
-The dominant pattern that has me stuck:
-Anti-vision:
-Vision MVP:
-Non-negotiable constraints:
-One-year evidence:
-One-month project:
-Next-day actions:
-Next feedback check:
+The habit that has me stuck right now:
+The life I most do not want:
+The direction I am willing to take now:
+The lines I will not cross:
+What this year should produce:
+The one thing this month should finish:
+What I will do tomorrow:
+When I will look back:
 ```
 
-## Boundaries
+## Read this first
 
-- This is a reflection and planning tool, not therapy or diagnosis.
-- Stop intensification exercises if there is self-harm risk, severe depression, mania, psychotic symptoms, or real-world danger.
-- The one-day protocol only pushes reversible experiments. It does not push same-day resignation, breakup, stopping medication, or large financial commitments.
-- Absolute psychological claims in the source article were not independently verified in this distillation.
+- This is for sorting yourself out and making a plan. It is not counseling, and it is not a diagnosis.
+- If you are thinking about hurting yourself, or you are in a very dark mood or a real-world emergency, talk to people around you and get professional help first. Skip the exercises that turn the pain up.
+- This day is only for small trials you can change or stop. Do not quit your job, end a relationship, stop medication, or make a large money move on the same day.
+- Some claims in the original essay are very absolute. This version did not go out and fact-check them.
 
-## Contents
+## What's in the repo
 
-- `SKILL.md`: Full operating manual
-- `examples/publishing-reset.md`: From creative procrastination to a next-day experiment
-- `references/distillation/`: Sources, extraction, expression, limits, and key quotes
-- `FIDELITY.md`: Independent agent factory score
+- `SKILL.md`: The full method
+- `examples/publishing-reset.md`: From never publishing to one small thing tomorrow
+- `references/distillation/`: Source notes, excerpts, and how this was put together
+- `FIDELITY.md`: A later quality check
